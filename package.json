@@ -1,0 +1,18 @@
+{
+  "name": "costume",
+  "version": "0.1.0",
+  "description": "Paste a public claim in and see what it is wearing versus what it actually paid for. Kiroween 2026, Costume Contest.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.29",
+    "typescript": "5.7.2",
+    "vite": "6.4.6",
+    "vitest": "5.1.1"
+  }
+}

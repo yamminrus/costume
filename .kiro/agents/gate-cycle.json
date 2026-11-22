@@ -1,0 +1,13 @@
+{
+  "name": "gate-cycle",
+  "description": "Runs the repository gate script after any file is saved in this workspace.",
+  "hooks": {
+    "postToolUse": [
+      {
+        "matcher": "write",
+        "command": "bash tools/gate_cycle.sh",
+        "timeout_ms": 120000
+      }
+    ]
+  }
+}
